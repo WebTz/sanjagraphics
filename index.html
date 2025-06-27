@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanja Graphics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">SANJA GRAPHICS</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#Services">Our Services</a></li>
+            <li><a href="#offers">Offers</a></li>
+            <li><a href="#about">About</a></li>
+            <li class="ctn"><a href="#contact" >Contact</a></li>
+        </ul>
+        <img src="menu.png" alt="#" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Promote Your Business with</h2>
+            <div class="line"></div>
+            <h1>SANJA GRAPHICS</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+    <section class="events" id="offers">
+        <div class="title">
+            <h1>Upcoming Offers</h1>
+            <div class="line"></div>
+            <div class="row">
+                <div class="col">
+                    <img src="img/image1.jpg" alt="">
+                    <h4>Buy Me Monthly</h4>
+                    <p>Here we will offer you all designs in your monthly paid package, for the company which will pay us 100,000/=, 30 days will 
+                        be free for any design
+                    </p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+                <div class="col">
+                    <img src="img/image2.jpg" alt="">
+                    <h4>One Logo Free Poster</h4>
+                    <p>For the customer who will design with us company logo, one poster will be provided free
+                    </p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="promote" id="about">
+        <div class="promote-content">
+            <h1>About Us</h1>
+            <div class="line"></div>
+            <p>We are smart graphics designers from Tanzania. We offer services like; Poster designing
+                , Logo Designing, Business Card Designing, and Banner Designing.
+            </p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+    <section class="events" id="Services">
+        <div class="title">
+            <h1>Most Designed Works</h1>
+            <div class="line"></div>
+            <div class="row">
+                <div class="col">
+                    <img src="pai.png" alt="">
+                    <h4>Posters</h4>
+                    <p>Since January we have designed 80 Posters of different companies
+                    </p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+                <div class="col">
+                    <img src="pai.png" alt="">
+                    <h4>Logo</h4>
+                    <p>Since January we have designed 30 logo of different companies
+                    </p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <h3>Contact Us</h3>
+                <p>Email:sanjagraphics@gmail.com</p>
+                <p>Phone: +255759770558</p>
+                <P>Address: P.O.BOX 170, Maswa</P>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <p>&copy; 2025 Sanja Graphics . all rights reserved</p>
+        </div>
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const Navlinks = document.querySelector('.nav-links')
+        menuBtn.addEventListener('click',()=>{
+            Navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
